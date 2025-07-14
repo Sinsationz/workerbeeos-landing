@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const ctaButton = document.querySelector('.cta');
-  if (ctaButton) {
-    ctaButton.addEventListener('click', function (event) {
-      event.preventDefault();
-      alert("✅ You’ve joined the waitlist (mock)!");
+// script.js — WorkerBeeOS landing interactions
+
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.querySelector(".cta");
+
+  if (button) {
+    button.addEventListener("click", () => {
+      alert("Waitlist functionality coming soon!");
     });
-  } else {
-    console.error("CTA button not found.");
   }
 });
