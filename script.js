@@ -1,1 +1,3 @@
-console.log("WorkerBeeOS landing site loaded.");
+document.querySelector('.cta').addEventListener('click', function () {
+  alert("Thanks for your interest! Waitlist coming soon.");
+});
